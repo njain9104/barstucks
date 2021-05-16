@@ -17,12 +17,17 @@
 
 .tab-panel {
   font-size: 2rem;
-  padding: 0 2rem;
-  transition: all 0.3s ease-in;
+  padding: 0 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+  margin: 0.5rem;
+  transition: color 0.3s ease-in;
+  background: #d4e9e6;
 }
 
 .active-tab-panel {
   color: green;
+  border-bottom: 4px solid;
 }
 
 .tab-panel:hover {
@@ -79,6 +84,12 @@
 }
 
 @media screen and (max-width: 42rem) {
+  .tabs {
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+  }
+
   .tab {
     flex-direction: column;
     justify-content: center;

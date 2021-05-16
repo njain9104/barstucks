@@ -7,6 +7,9 @@ const Header: FC = () => {
   return (
     <div className="header">
       <nav className="navigation">
+        <div className="nav-item logo hidden">
+          <LogoIcon />
+        </div>
         <ul className="nav-items first">
           <li className="nav-item logo">
             <LogoIcon />

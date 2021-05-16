@@ -32,6 +32,10 @@
   transition: background-color 0.2s ease-in, color 0.2s ease-in;
 }
 
+.nav-item.logo.hidden {
+  display: none;
+}
+
 .active {
   text-decoration-style: solid;
   text-decoration-line: underline;
@@ -94,5 +98,13 @@
 
   .nav-item {
     margin-bottom: 0.75rem;
+  }
+
+  .nav-item.logo {
+    display: none;
+  }
+
+  .nav-item.logo.hidden {
+    display: block;
   }
 }
