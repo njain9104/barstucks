@@ -1,0 +1,38 @@
+.terms-and-benefits-container {
+  margin-top: 1rem;
+  padding-left: 2rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.terms-and-benefits-container p {
+  margin-bottom: 1rem;
+}
+
+.benefits,
+.terms {
+  width: 50%;
+}
+
+.benefits {
+  margin-right: 1rem;
+}
+
+.terms {
+  margin-left: 1rem;
+}
+
+@media screen and (max-width: 47rem) {
+  .flex {
+    flex-direction: column;
+  }
+  .benefits,
+  .terms {
+    width: 90%;
+  }
+  .terms {
+    margin-left: 0;
+  }
+}

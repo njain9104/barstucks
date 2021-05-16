@@ -1,0 +1,68 @@
+.payment-options-container {
+  background-color: #f3f1e7;
+  padding-left: 2rem;
+}
+
+.payment-options-header {
+  text-align: center;
+}
+
+.payment-options-header .subHeading {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.payment-option {
+  display: flex;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.payment-section {
+  min-width: 30%;
+}
+
+.payment-section-subHeading {
+  margin-top: 0.5rem;
+}
+
+.section-options {
+  display: flex;
+}
+
+.section-option {
+  display: flex;
+  width: 35%;
+  margin: 0 2rem;
+  align-items: flex-start;
+}
+
+.section-option-heading {
+  margin-bottom: 0.5rem;
+}
+
+.section-option .details {
+  margin-left: 0.5rem;
+}
+
+@media screen and (max-width: 60rem) {
+  .payment-section {
+    min-width: 25%;
+  }
+  .section-option {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 52rem) {
+  .section-options {
+    flex-direction: column;
+  }
+
+  .section-option {
+    width: 85%;
+    margin-bottom: 1.5rem;
+  }
+}

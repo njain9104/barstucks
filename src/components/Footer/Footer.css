@@ -1,0 +1,32 @@
+.footer {
+  padding-left: 2rem;
+}
+
+.external-links,
+.footer-links {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin: 1rem 0;
+  flex-wrap: wrap;
+}
+
+.external-links li,
+.footer-links li {
+  margin-right: 1.5rem;
+}
+
+.external-links li:hover,
+.footer-links li:hover {
+  cursor: pointer;
+}
+
+.company-desc {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+@media screen and (max-width: 33rem) {
+  .footer-links li {
+    margin-bottom: 1rem;
+  }
+}

@@ -1,0 +1,49 @@
+.flex-steps {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.flex-step {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  margin: 0 auto;
+}
+
+.sub-heading {
+  margin: 1.25rem 0 1.25rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.endless-extras .sub-heading {
+  width: 45%;
+}
+
+.step-heading {
+  margin-bottom: 1.25rem;
+}
+
+.endless-extras .link {
+  margin-top: 1.25rem;
+}
+
+@media screen and (max-width: 56rem) {
+  .flex-steps {
+    flex-direction: column;
+  }
+
+  .flex-step {
+    width: 70%;
+    margin-bottom: 2.5rem;
+  }
+
+  .sub-heading,
+  .step-subHeading {
+    text-align: center;
+  }
+}

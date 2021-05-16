@@ -1,0 +1,8 @@
+.flex-step .circle {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: green;
+  border-color: green;
+  border-width: 2px;
+  margin: 1.25rem 0;
+}

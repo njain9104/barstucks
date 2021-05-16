@@ -1,0 +1,59 @@
+.grey-background {
+  background-color: #f7f7f7;
+}
+
+.block {
+  margin: 8rem auto;
+}
+
+.circle {
+  height: 3rem;
+  width: 3rem;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  color: green;
+  text-decoration: underline;
+}
+
+.link:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button {
+  padding: 0.25rem 0.5rem;
+  border-radius: 2rem;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  vertical-align: middle;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+input {
+  outline: none;
+  border: none;
+  font: inherit;
+}
+
+@media screen and (max-width: 56rem) {
+  .block {
+    margin: 4rem auto;
+  }
+}
